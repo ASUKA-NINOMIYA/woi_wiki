@@ -1,0 +1,65 @@
+@font-face{
+    font-family:'cheonrima';
+    src:url('../fonts/kp_cheonrima.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'latin';
+    src:url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+    /* unicode-range: U+0041-005A, U+0061-007A; */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'genshin';
+    src:url('../fonts/genshin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: '1', 'cheonrima';
+    font-size: 11pt;
+}
+
+body {
+    background-color: #efefef;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
+    font-size: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body #container {
+    width: 1600px;
+    padding: 30px 40px;
+    margin: 0 auto;
+    background-color: white;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 21pt;
+}
+
+hr {
+    border: 1px solid #cccccc;
+    margin: 5px 0 15px 0;
+}
