@@ -1,0 +1,41 @@
+#country_spec {
+    border: 2px solid var(--country_color);
+    float: right;
+}
+
+#country_spec th {
+    background-color: var(--country_color);
+    color: var(--text_color);
+}
+
+#country_spec th span {
+    font-size: 15pt;
+}
+
+.div_cell {
+    padding: 0;
+}
+
+.div_cell > div {
+    display: table;
+}
+
+.div_cell div > div {
+    display: table-cell;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.div_cell div > div:not(:last-of-type) {
+    border-right: 1px solid #cccccc;
+}
+
+.show_hide_history {
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.history {
+    display: none;
+}

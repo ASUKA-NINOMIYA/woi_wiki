@@ -7,15 +7,8 @@ table {
     margin: 30px auto;
 }
 
-table, th, td {
-    border-collapse: collapse;
-}
-
 th, td {
-    border: 1px solid #cccccc;
-    padding: 7px 10px;
     text-align: center;
-    /* font-weight: bold; */
 }
 
 th {
@@ -25,27 +18,4 @@ th {
 
 th span {
     font-size: 18pt;
-}
-
-span.rounded_box {
-    display: inline-block;
-    padding: 2px 3px;
-    margin-right: 3px;
-    border-radius: 3px;
-    font-size: 10pt;
-    font-weight: bold;
-    color: white;
-}
-
-small {
-    font-size: 9pt;
-}
-
-.quote {
-    width: fit-content;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 2px dotted #a7a7a7;
-    border-left: 3px solid black;
-    background-color: #e6e6e6;
 }
