@@ -1,6 +1,7 @@
 #country_spec {
     border: 2px solid var(--country_color);
     float: right;
+    margin-left: 10px;
 }
 
 #country_spec th {
@@ -38,4 +39,24 @@
 
 .history {
     display: none;
+}
+
+#toc {
+    width: fit-content;
+    border: 1px solid gray;
+    border-left: 3px solid black;
+    padding: 10px 13px;
+    margin: 20px 0;
+}
+
+#toc span {
+    font-size: 13pt;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#toc ul {
+    list-style-type: none;
+    padding: 0;
 }

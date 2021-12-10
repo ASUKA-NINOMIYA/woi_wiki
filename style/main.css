@@ -111,3 +111,15 @@ img {
 ul {
     padding-left: 20px;
 }
+
+span.p1 {
+    font-size: 14pt;
+}
+
+span.p2 {
+    font-size: 16pt;
+}
+
+span.p3 {
+    font-size: 18pt;
+}
