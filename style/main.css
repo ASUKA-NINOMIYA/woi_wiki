@@ -1,21 +1,20 @@
-@font-face{
-    font-family:'cheonrima';
-    src:url('../fonts/kp_cheonrima.woff2') format('woff2');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Noto+Sans+TC&display=swap');
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face{
-    font-family:'latin';
-    src:url('../fonts/NunitoSans-Regular.ttf') format('truetype');
-    /* unicode-range: U+0041-005A, U+0061-007A; */
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family:'genshin';
-    src:url('../fonts/genshin.ttf') format('truetype');
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,8 +22,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: '1', 'cheonrima';
-    font-size: 11pt;
+    font-family: 'Aldrich', 'GmarketSansMedium', 'Noto Sans TC', sans-serif;
+    font-size: 11.3pt;
+    font-weight: bold;
 }
 
 body {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 body #container {
-    width: 1600px;
+    width: 1450px;
     padding: 30px 40px;
     margin: 0 auto;
     background-color: white;
@@ -57,6 +57,14 @@ h1 {
 
 h2 {
     font-size: 21pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h4 {
+    font-size: 15pt;
 }
 
 hr {
