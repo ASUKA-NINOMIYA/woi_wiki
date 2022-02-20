@@ -60,3 +60,11 @@
     list-style-type: none;
     padding: 0;
 }
+
+article:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+article.indent {
+    margin: 0;
+}
