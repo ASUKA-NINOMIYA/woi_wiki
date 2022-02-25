@@ -5,26 +5,13 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'GmarketSansBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GmarketSansLight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Aldrich', 'GmarketSansMedium', 'Noto Sans TC', sans-serif;
-    font-size: 11.3pt;
-    font-weight: bold;
+    font-family: 'GmarketSansMedium', 'Noto Sans TC', sans-serif;
+    font-size: 10.4pt;
+    /* font-weight: bold; */
 }
 
 body {
@@ -43,7 +30,7 @@ a:hover {
 
 body #container {
     width: 1450px;
-    padding: 30px 40px;
+    padding: 30px 35px;
     margin: 0 auto;
     background-color: white;
     border-left: 1px solid #cccccc;
@@ -78,7 +65,7 @@ table, th, td {
 
 th, td {
     border: 1px solid #cccccc;
-    padding: 7px 10px;
+    padding: 6px 9px;
 }
 
 td {
@@ -101,11 +88,15 @@ span.rounded_box {
 
 .quote {
     width: fit-content;
-    padding: 12px;
+    padding: 13px 16px;
     margin-bottom: 20px;
     border: 2px dotted #a7a7a7;
-    border-left: 3px solid black;
-    background-color: #e6e6e6;
+    border-left: 3px solid rgb(53, 53, 53);
+    background-color: #f1f1f1;
+}
+
+.quote hr {
+    margin: 7px 0;
 }
 
 img {
