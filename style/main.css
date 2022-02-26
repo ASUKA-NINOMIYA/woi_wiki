@@ -28,6 +28,30 @@ a:hover {
     text-decoration: underline;
 }
 
+header {
+    background-color: #303030;
+}
+
+header .container {
+    height: 45px;
+    width: 1450px;
+    padding: 0 0 0 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: #dddddd;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 body #container {
     width: 1450px;
     padding: 30px 35px;
@@ -38,7 +62,7 @@ body #container {
 }
 
 h1 {
-    font-size: 30pt;
+    font-size: 27pt;
     margin-bottom: 5px;
 }
 
