@@ -6,4 +6,10 @@ $(document).ready(function() {
             $('.history').css({"display":"none"})
         }
     });
+
+    $('.fold').click(function() {
+        if($(this).next().is(":visible") == false) {
+            $(this).next('tbody').css({"display":"block"})
+        }
+    });
 });
