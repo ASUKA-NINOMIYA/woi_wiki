@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="../../main.css" rel="stylesheet">
-        <link href="../../docs.css" rel="stylesheet">
+        <link href="../../style/main.css" rel="stylesheet">
+        <link href="../../style/docs.css" rel="stylesheet">
         <title>대한민국의 행정구역/역사</title>
     </head>
     <body>
