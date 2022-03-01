@@ -6,8 +6,12 @@
         <title>대한민국의 행정구역/역사</title>
     </head>
     <body>
+        <header>
+            <div class="container"><a href="index.html">PROJECT KOREA</a></div>
+        </header>
         <div id="container">
             <h1>대한민국의 행정구역/역사</h1>
+            <hr>
 
             <article>
                 <h2>독립전쟁 (1941~1945)</h2>
