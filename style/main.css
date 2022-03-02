@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Noto+Sans+KR&display=swap');
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -9,7 +9,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'GmarketSansMedium', 'Noto Sans TC', sans-serif;
+    font-family: 'GmarketSansMedium', 'Noto Sans KR', sans-serif;
     font-size: 10.4pt;
     /* font-weight: bold; */
 }
