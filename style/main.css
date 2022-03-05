@@ -79,7 +79,7 @@ h4 {
 }
 
 hr {
-    border: none;
+    border: 1px solid #cccccc;
     background-color: #cccccc;
     margin: 5px 0 15px 0;
 }
