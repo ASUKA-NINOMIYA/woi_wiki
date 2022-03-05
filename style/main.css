@@ -79,8 +79,9 @@ h4 {
 }
 
 hr {
-    border: 1px solid #cccccc;
-    background-color: #cccccc;
+    border: 0;
+    height: 3px;
+    background: #cccccc;
     margin: 5px 0 15px 0;
 }
 
