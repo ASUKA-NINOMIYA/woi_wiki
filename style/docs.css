@@ -74,3 +74,16 @@ article.indent {
     border-radius: 3px;
     font-size: 9.5pt;
 }
+
+@media screen and (max-width:767px) {
+    #country_spec {
+        float: none;
+        margin: 0;
+    }
+
+    article:not(:first-of-type) {
+        margin-top: 15px;
+    }
+
+    .radius { font-size: 9pt; }
+}

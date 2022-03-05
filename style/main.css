@@ -6,40 +6,12 @@
     font-style: normal;
 }
 
-@media screen and (max-width:767px) {
-    header .container {
-        height: 40px;
-        display: flex;
-        align-items: center;
-    }
-
-    header a {
-        color: #dddddd;
-        font-size: 15pt;
-        font-weight: bold;
-        margin-left: 30px;
-    }
-
-    header a:hover {
-        color: white;
-        text-decoration: none;
-    }
-
-    body #container {
-       border: none;
-       padding: 10px 15px;
-    }
-}
-
 * {
     padding: 0;
     margin: 0;
     font-family: 'GmarketSansMedium', 'Noto Sans KR', sans-serif;
-    font-size: 10.4pt;
     /* font-weight: bold; */
 }
-
-@media (min-width: 600px) {
 
 body {
     background-color: #efefef;
@@ -59,57 +31,10 @@ header {
     background-color: #303030;
 }
 
-header .container {
-    height: 45px;
-    width: 1520px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-header a {
-    color: #dddddd;
-    font-size: 15pt;
-    font-weight: bold;
-    margin-left: 30px;
-}
-
-header a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-body #container {
-    width: 1450px;
-    padding: 30px 35px;
-    margin: 0 auto;
-    background-color: white;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
-}
-
-h1 {
-    font-size: 27pt;
-    margin-bottom: 5px;
-}
-
-h2 {
-    font-size: 21pt;
-}
-
-h3 {
-    font-size: 18pt;
-}
-
-h4 {
-    font-size: 15pt;
-}
-
 hr {
     border: 0;
-    height: 3px;
+    height: 2px;
     background: #cccccc;
-    margin: 5px 0 15px 0;
 }
 
 table, th, td {
@@ -125,18 +50,12 @@ td {
     background-color: white;
 }
 
-small {
-    font-size: 9pt;
+img {
+    vertical-align: middle;
 }
 
-span.rounded_box {
-    display: inline-block;
-    padding: 2px 3px;
-    margin-right: 3px;
-    border-radius: 3px;
-    font-size: 10pt;
-    font-weight: bold;
-    color: white;
+.center {
+    text-align: center;
 }
 
 .quote {
@@ -148,37 +67,152 @@ span.rounded_box {
     background-color: #f1f1f1;
 }
 
-.quote hr {
-    margin: 7px 0;
+@media screen and (max-width:767px) {
+    * { font-size: 10pt; }
+
+    header .container {
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    header a {
+        color: #dddddd;
+        font-size: 11pt;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    header a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    body #container {
+       border: none;
+       padding: 10px 15px;
+       background-color: white;
+    }
+    
+    h1 {
+        font-size: 13pt;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 13pt;
+    }
+
+    h3 {
+        font-size: 12pt;
+    }
+
+    h4 {
+        font-size: 11pt;
+    }
+
+    hr { margin: 5px 0; }
+
+    hr:first-of-type {
+        margin-bottom: 10px;
+    }
+    
+    .quote {
+        padding: 7px 10px;
+        margin-bottom: 5px;
+    }
+
+    .quote hr {
+        margin: 5px 0;
+    }
+
+    ul {
+        padding-left: 10px;
+        margin: 5px;
+    }
+    
+    ul li {
+        line-height: 18px;
+    }
 }
 
-img {
-    vertical-align: middle;
-}
+@media (min-width: 600px) {
+    * { font-size: 10.4pt; }
 
-.center {
-    text-align: center;
-}
+    header .container {
+        height: 45px;
+        width: 1520px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
 
-ul {
-    padding-left: 20px;
-    margin: 5px;
-}
+    header a {
+        color: #dddddd;
+        font-size: 15pt;
+        font-weight: bold;
+        margin-left: 30px;
+    }
 
-ul li {
-    line-height: 21px;
-}
+    header a:hover {
+        color: white;
+        text-decoration: none;
+    }
 
-span.p1 {
-    font-size: 14pt;
-}
+    body #container {
+        width: 1450px;
+        padding: 30px 35px;
+        margin: 0 auto;
+        background-color: white;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+    }
 
-span.p2 {
-    font-size: 16pt;
-}
+    h1 {
+        font-size: 27pt;
+        margin-bottom: 5px;
+    }
 
-span.p3 {
-    font-size: 18pt;
-}
+    h2 {
+        font-size: 21pt;
+    }
 
+    h3 {
+        font-size: 18pt;
+    }
+
+    h4 {
+        font-size: 15pt;
+    }
+
+    hr { margin: 5px 0 15px 0;}
+
+    .quote hr {
+        margin: 7px 0;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin: 5px;
+    }
+    
+    ul li {
+        line-height: 21px;
+    }
+
+    small {
+        font-size: 9pt;
+    }
+
+    span.p1 {
+        font-size: 14pt;
+    }
+
+    span.p2 {
+        font-size: 16pt;
+    }
+
+    span.p3 {
+        font-size: 18pt;
+    }
 }
