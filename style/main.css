@@ -21,6 +21,8 @@
     /* font-weight: bold; */
 }
 
+@media (min-width: 600px) {
+
 body {
     background-color: #efefef;
 }
@@ -159,4 +161,6 @@ span.p2 {
 
 span.p3 {
     font-size: 18pt;
+}
+
 }
