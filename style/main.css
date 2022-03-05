@@ -29,6 +29,15 @@ a:hover {
 
 header {
     background-color: #303030;
+    margin: 0 auto;
+}
+
+header .container {
+    height: 45px;
+    width: 1520px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 hr {
@@ -72,13 +81,11 @@ img {
 
     header .container {
         height: 30px;
-        display: flex;
-        align-items: center;
     }
 
     header a {
         color: #dddddd;
-        font-size: 11pt;
+        font-size: 10pt;
         font-weight: bold;
         margin-left: 15px;
     }
@@ -90,12 +97,12 @@ img {
 
     body #container {
        border: none;
-       padding: 10px 15px;
+       padding: 15px;
        background-color: white;
     }
     
     h1 {
-        font-size: 13pt;
+        font-size: 14pt;
         margin-bottom: 5px;
     }
 
@@ -116,6 +123,8 @@ img {
     hr:first-of-type {
         margin-bottom: 10px;
     }
+
+    th, td { padding: 5px 7px; }
     
     .quote {
         padding: 7px 10px;
@@ -127,8 +136,7 @@ img {
     }
 
     ul {
-        padding-left: 10px;
-        margin: 5px;
+        padding-left: 15px;
     }
     
     ul li {
@@ -140,11 +148,6 @@ img {
     * { font-size: 10.4pt; }
 
     header .container {
-        height: 45px;
-        width: 1520px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
     }
 
     header a {
@@ -193,7 +196,6 @@ img {
 
     ul {
         padding-left: 20px;
-        margin: 5px;
     }
     
     ul li {

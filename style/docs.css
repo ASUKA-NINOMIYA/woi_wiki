@@ -75,6 +75,10 @@ article.indent {
     font-size: 9.5pt;
 }
 
+p:not(last-of-type) {
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width:767px) {
     #country_spec {
         float: none;
@@ -86,4 +90,16 @@ article.indent {
     }
 
     .radius { font-size: 9pt; }
+
+    #toc {
+        padding: 7px 10px;
+    }
+
+    #toc span {
+        margin-bottom: 3px;
+    }
+
+    p:not(last-of-type) {
+        margin-bottom: 5px;
+    }
 }
