@@ -95,6 +95,10 @@ img {
         text-decoration: none;
     }
 
+    body {
+        width: 100%;
+    }
+
     body #container {
         width: 100%;
         border: none;
