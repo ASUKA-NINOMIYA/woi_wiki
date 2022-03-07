@@ -79,6 +79,8 @@ img {
 @media screen and (max-width:767px) {
     * { font-size: 10pt; }
 
+    body { width=100% }
+
     header .container {
         height: 40px;
     }
@@ -100,7 +102,6 @@ img {
     }
 
     body #container {
-        width: 100%;
         border: none;
         padding: 15px;
         background-color: white;
