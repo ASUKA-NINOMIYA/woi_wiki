@@ -108,20 +108,20 @@ img {
     }
     
     h1 {
-        font-size: 22pt;
-        margin-bottom: 5px;
+        font-size: 21pt;
+        margin-bottom: 10px;
     }
 
     h2 {
-        font-size: 19pt;
+        font-size: 18pt;
     }
 
     h3 {
-        font-size: 16pt;
+        font-size: 15pt;
     }
 
     h4 {
-        font-size: 15pt;
+        font-size: 13pt;
     }
 
     hr { margin: 5px 0; }
@@ -179,7 +179,7 @@ img {
 
     h1 {
         font-size: 27pt;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     h2 {
