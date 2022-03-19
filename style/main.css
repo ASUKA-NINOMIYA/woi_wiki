@@ -34,7 +34,6 @@ header {
 
 header .container {
     height: 45px;
-    width: 1520px;
     margin: 0 auto;
     display: flex;
     align-items: center;
