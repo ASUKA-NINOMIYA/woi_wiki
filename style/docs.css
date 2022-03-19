@@ -86,7 +86,7 @@ p:not(last-of-type) {
     }
 
     article:not(:first-of-type) {
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
     .radius { font-size: 9pt; }
@@ -100,6 +100,6 @@ p:not(last-of-type) {
     }
 
     p:not(last-of-type) {
-        margin-bottom: 5px;
+        margin-bottom: 7px;
     }
 }
