@@ -77,7 +77,7 @@ img {
 }
 
 @media screen and (max-width:767px) {
-    * { font-size: 10pt; }
+    * { font-size: 11pt; }
 
     body { width=100% }
 
@@ -108,12 +108,12 @@ img {
     }
     
     h1 {
-        font-size: 21pt;
+        font-size: 20pt;
         margin-bottom: 10px;
     }
 
     h2 {
-        font-size: 18pt;
+        font-size: 17pt;
     }
 
     h3 {
