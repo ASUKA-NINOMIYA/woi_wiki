@@ -45,6 +45,10 @@ hr {
     background: #cccccc;
 }
 
+table {
+    margin-bottom: 7px;
+}
+
 table, th, td {
     border-collapse: collapse;
 }
