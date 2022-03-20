@@ -133,7 +133,7 @@ img {
         margin-bottom: 10px;
     }
 
-    th, td { padding: 5px 7px; }
+    th, td { padding: 4px 7px 7px 6px; }
     
     .quote {
         padding: 7px 10px;
