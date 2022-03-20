@@ -33,7 +33,7 @@ header {
 }
 
 header .container {
-    height: 45px;
+    height: 50px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -82,11 +82,7 @@ img {
 @media screen and (max-width:767px) {
     * { font-size: 11pt; }
 
-    body { width=100% }
-
-    header .container {
-        height: 40px;
-    }
+    body { width: 100% }
 
     header a {
         color: #dddddd;
@@ -157,6 +153,7 @@ img {
     * { font-size: 10.4pt; }
 
     header .container {
+        width: 1520px;
     }
 
     header a {
@@ -172,7 +169,7 @@ img {
     }
 
     body #container {
-        width: 1450px;
+        width: 1350px;
         padding: 30px 35px;
         margin: 0 auto;
         background-color: white;
