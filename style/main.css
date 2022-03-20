@@ -46,7 +46,7 @@ hr {
 }
 
 table {
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 table, th, td {
@@ -55,7 +55,11 @@ table, th, td {
 
 th, td {
     border: 1px solid #cccccc;
-    padding: 5px 10px;
+    padding: 7px;
+}
+
+td {
+    padding: 7px 10px;
 }
 
 td {
@@ -139,21 +143,13 @@ img {
     .quote hr {
         margin: 5px 0;
     }
-
-    ul {
-        padding-left: 15px;
-    }
-    
-    ul li {
-        line-height: 21px;
-    }
 }
 
 @media (min-width: 600px) {
     * { font-size: 10.4pt; }
 
     header .container {
-        width: 1520px;
+        width: 1420px;
     }
 
     header a {
@@ -201,7 +197,7 @@ img {
     }
 
     ul {
-        padding-left: 20px;
+        padding-left: 17px;
     }
     
     ul li {
