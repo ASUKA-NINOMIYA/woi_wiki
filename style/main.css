@@ -60,10 +60,11 @@ th, td {
 
 td {
     padding: 7px 10px;
+    background-color: white;
 }
 
-td {
-    background-color: white;
+ul {
+    padding-left: 18px;
 }
 
 img {
@@ -106,7 +107,7 @@ img {
 
     body #container {
         border: none;
-        padding: 15px;
+        padding: 18px;
         background-color: white;
     }
     
@@ -132,8 +133,6 @@ img {
     hr:first-of-type {
         margin-bottom: 15px;
     }
-
-    th, td { padding: 4px 7px 7px 6px; }
     
     .quote {
         padding: 7px 10px;
@@ -142,6 +141,10 @@ img {
 
     .quote hr {
         margin: 5px 0;
+    }
+    
+    ul li {
+        line-height: 23px;
     }
 }
 
@@ -194,10 +197,6 @@ img {
 
     .quote hr {
         margin: 7px 0;
-    }
-
-    ul {
-        padding-left: 17px;
     }
     
     ul li {
