@@ -6,10 +6,9 @@
         <title>대한민국의 행정구역/역사</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <style>
-            table { border: 2px solid black; }
-            th {
-                background-color: black;
-                color: white;
+            thead th {
+                /* background-color: black; */
+                /* font-size: 11.5pt; */
             }
         </style>
     </head>
@@ -31,10 +30,17 @@
 
                 <!--조선총독부 13도 일람표-->
                 <table>
+                    <thead>
+                        <!-- <tr>
+                            <th colspan="2">13도 행정구역</th>
+                        </tr> -->
+                        <tr>
+                            <th>도(道)</th>
+                            <th>부(府), 군(郡), 도(島)</th>
+                        </tr>
+                    </thead>
                     <tr>
-                        <th colspan="2">13도 행정구역 (1941~1945)</th>
-                    <tr>
-                        <th style="width: 90px;">경기도<br>(3부 20군)</th>
+                        <th style="width: 90px;">경기도<br><small>(3부 20군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>한성부, 인천부, 개성부</li>
@@ -43,7 +49,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>강원도<br>(21군)</th>
+                        <th>강원도<br><small>(21군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>춘천군, 인제군, 양구군, 회양군, 통천군, 고성군, 양양군, 강릉군, 삼척군, 울진군, 정선군, 평창군, 영월군, 원주군, 횡성군, 홍천군, 화천군, 김화군, 철원군, 평강군, 이천군</li>
@@ -51,7 +57,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>충청북도<br>(10군)</th>
+                        <th>충청북도<br><small>(10군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>청주군, 보은군, 옥천군, 영동군, 진천군, 괴산군, 음성군, 충주군, 제천군, 단양군</li>
@@ -59,7 +65,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>충청남도<br>(1부 14군)</th>
+                        <th>충청남도<br><small>(1부 14군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>대전부</li>
@@ -68,7 +74,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>경상북도<br>(1부 22군 1도)</th>
+                        <th>경상북도<br><small>(1부 22군 1도)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>대구부</li>
@@ -78,7 +84,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>경상남도<br>(3부 19군)</th>
+                        <th>경상남도<br><small>(3부 19군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>부산부, 마산부, 진주부</li>
@@ -87,7 +93,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>전라북도<br>(2부 14군)</th>
+                        <th>전라북도<br><small>(2부 14군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>전주부, 군산부</li>
@@ -96,7 +102,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>전라남도<br>(2부 21군 1도)</th>
+                        <th>전라남도<br><small>(2부 21군 1도)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>광주부, 목포부</li>
@@ -106,25 +112,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>함경북도<br>(2부 11군)</th>
-                        <td style="text-align: left;">
-                            <ul>
-                                <li>청진부, 나진부, 성진부</li>
-                                <li>경성군, 명천군, 길주군, 학성군, 부령군, 무산군, 회령군, 종성군, 온성군, 경원군, 경흥군</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>함경남도<br>(2부 16군)</th>
-                        <td style="text-align: left;">
-                            <ul>
-                                <li>함흥부, 원산부</li>
-                                <li>함주군, 정평군, 영흥군, 고원군, 문천군, 안변군, 홍원군, 북청군, 이원군, 단천군, 신흥군, 장진군, 풍산군, 삼수군, 갑산군, 혜산군</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>평안북도<br>(1부 19군)</th>
+                        <th>평안북도<br><small>(1부 19군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>신의주부</li>
@@ -133,7 +121,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>평안남도<br>(2부 14군)</th>
+                        <th>평안남도<br><small>(2부 14군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>평양부, 진남포부</li>
@@ -142,7 +130,25 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>황해도<br>(1부 17군)</th>
+                        <th>함경북도<br><small>(3부 11군)</small></th>
+                        <td style="text-align: left;">
+                            <ul>
+                                <li>청진부, 나진부, 성진부</li>
+                                <li>경성군, 명천군, 길주군, 학성군, 부령군, 무산군, 회령군, 종성군, 온성군, 경원군, 경흥군</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>함경남도<br><small>(2부 16군)</small></th>
+                        <td style="text-align: left;">
+                            <ul>
+                                <li>함흥부, 원산부</li>
+                                <li>함주군, 정평군, 영흥군, 고원군, 문천군, 안변군, 홍원군, 북청군, 이원군, 단천군, 신흥군, 장진군, 풍산군, 삼수군, 갑산군, 혜산군</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>황해도<br><small>(1부 17군)</small></th>
                         <td style="text-align: left;">
                             <ul>
                                 <li>해주부</li>

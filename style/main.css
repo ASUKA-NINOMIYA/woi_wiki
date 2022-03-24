@@ -54,13 +54,17 @@ table, th, td {
 }
 
 th, td {
-    border: 1px solid #cccccc;
+    border: 1px solid #a2a9b1;
     padding: 7px;
+}
+
+th {
+    background-color: #eaecf0;
 }
 
 td {
     padding: 7px 10px;
-    background-color: white;
+    background-color: #f8f9fa;
 }
 
 ul {
